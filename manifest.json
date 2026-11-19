@@ -1,0 +1,18 @@
+{
+  "access_provider_type": "oraclecloud",
+  "binary": "oraclecloud-dns.exe",
+  "capability": "dns",
+  "description": "ACME DNS-01 via Oracle Cloud - DNS.",
+  "display_name_key": "plugin.oraclecloud-dns.name",
+  "icon": "icon.svg",
+  "min_core_version": "",
+  "protocol_version": 4,
+  "provider_type": "oraclecloud-dns",
+  "provider_aliases": [
+    "oraclecloud"
+  ],
+  "usages": [
+    "dns"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "form/v1",
+  "provider": "oraclecloud-dns",
+  "category": "apply",
+  "schema": {
+    "columns": [
+      {
+        "name": "region",
+        "valueType": "text",
+        "labelKey": "plugin.oraclecloud-dns.config.region.label",
+        "tooltipKey": "plugin.oraclecloud-dns.config.region.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.oraclecloud-dns.config.region.placeholder",
+        "required": true,
+        "default": "us-phoenix-1"
+      },
+      {
+        "name": "compartmentOcid",
+        "valueType": "text",
+        "labelKey": "plugin.oraclecloud-dns.config.compartmentOcid.label",
+        "tooltipKey": "plugin.oraclecloud-dns.config.compartmentOcid.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.oraclecloud-dns.config.compartmentOcid.placeholder",
+        "required": true,
+        "validateWhen": [
+          {
+            "validator": "regex",
+            "params": {
+              "pattern": "^ocid\\d\\..{1,}$"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

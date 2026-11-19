@@ -1,0 +1,10 @@
+{
+  "plugin.oraclecloud-dns.name": "Oracle Cloud - DNS",
+  "plugin.oraclecloud-dns.description": "ACME DNS-01 via Oracle Cloud - DNS.",
+  "plugin.oraclecloud-dns.config.region.label": "OCI region",
+  "plugin.oraclecloud-dns.config.region.tooltip": "For more information, see <a href=\"https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm\" target=\"_blank\">https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm</a>",
+  "plugin.oraclecloud-dns.config.region.placeholder": "Please enter OCI DNS region (e.g. us-phoenix-1)",
+  "plugin.oraclecloud-dns.config.compartmentOcid.label": "OCI compartment OCID",
+  "plugin.oraclecloud-dns.config.compartmentOcid.tooltip": "For more information, see <a href=\"https://docs.oracle.com/en-us/iaas/Content/Identity/compartments/managingcompartments.htm\" target=\"_blank\">https://docs.oracle.com/en-us/iaas/Content/Identity/compartments/managingcompartments.htm</a>",
+  "plugin.oraclecloud-dns.config.compartmentOcid.placeholder": "Please enter OCI compartment OCID"
+}
